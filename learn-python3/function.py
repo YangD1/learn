@@ -41,3 +41,12 @@ class Student():
 # 实例化对象
 student  = Student() 
 student.print_file()
+
+# 学习正则表达式
+a = "C|C++|Java|C#|Python|Javascript"
+# index() 函数 判断字符串是否包含在另一个字符串中
+print(a.index('Python') > -1)
+
+# 以上方法也可以使用：
+print('Python' in a)
+
